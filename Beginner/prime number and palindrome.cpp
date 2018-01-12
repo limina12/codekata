@@ -24,6 +24,10 @@ int main() {
 	 {
 	     cout<<"yes";
 	 }
+	 else
+	 {
+	     cout<<"no";
+	 }
 	}
 	else
 	{
