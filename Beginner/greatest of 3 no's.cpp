@@ -6,15 +6,15 @@ int main() {
 	cin>>a>>b>>c;
 	if((a>b) && (a>c))
 	{
-	    cout<<"a is greater";
+	    cout<<a;
 	}
 	else if((b>a) && (b>c))
 	{
-	    cout<<"b is greater";
+	    cout<<b;
 	}
 	else
 	{
-	    cout<<"c is greater";
+	    cout<<c;
 	} 
 	return 0;
 }
