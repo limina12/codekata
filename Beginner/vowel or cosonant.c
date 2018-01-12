@@ -1,10 +1,9 @@
 #include <stdio.h>
 int main(void)
 {
-	char a,b;
-	scanf("%s",&a);
-	b=tolower(a);
-	if(b=='a' || b=='e' || b=='i' || b=='o' || b=='u')
+	char b;
+	scanf("%s",&b);
+	if(b=='a' || b=='e' || b=='i' || b=='o' || b=='u' || b=='A' || b=='E' || b=='I' || b=='O' || b=='U')
 	{
 		printf("vowel");
 	}
