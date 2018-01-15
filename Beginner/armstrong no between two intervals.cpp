@@ -17,7 +17,7 @@ int main() {
 	    }
 	    if(i==sum)
 	    {
-	        cout<<i;
+	        cout<<i<<" ";
 	    }
 	}
 	return 0;
