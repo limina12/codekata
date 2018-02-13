@@ -2,6 +2,8 @@
 using namespace std;
 
 int main() {
-	if(cout<<"hello world")
+    char s1[10];
+    cin>>s1;
+	if(cout<<s1)
 	return 0;
 }
