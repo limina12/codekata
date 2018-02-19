@@ -2,12 +2,14 @@
 #include<string.h>
 using namespace std;
 int main() {
-	char str[10];
-	int len,n,c;
-	cin.getline(str,10);
+	char str[15];
+	int len,n,i;
+	cin>>str;
 	cin>>n;
 	len=strlen(str);
-	c=len-n;
-	cout<<str[c];
+	for(i=n;i<=len;i++)
+	{
+	    cout<<str[i];
+	}
 	return 0;
 }
